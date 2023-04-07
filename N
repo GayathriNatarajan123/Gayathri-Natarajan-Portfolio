@@ -1,0 +1,163 @@
+<!--
+=========  Personal Portfolio Project =========
+Author: Gayathri
+Created Date: 07/04/2023
+References: W3 schools, codeinstitute
+The Purpose of this project is to showcase my HTML, CSS experience. Utilized HTML and HTML5 semantic elements.
+Built a responsive page using media query that has ability to optimize the screen size accroding to the desktop and mobile device.
+===============================================
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/42b7b745bb.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div id="container">
+        <header>    
+            <div class="pageheading">
+                <h1>Gayathri Natarajan Portfolio</h1>
+            </div>
+            <div class="pagenavigation">
+                <nav>
+                    <ul>
+                    <li><a href="#headersection">Home</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </nav> 
+            </div>       
+        </header>
+        <main>
+            <div  class="allignment">
+                <div class="pageimage">
+                    <img src="Gayathri.jpg" alt="Gayathri Image" title="Gayathri Natarajan" id="imggayathri">
+                </div>
+                <div class="profile">
+                    <section>
+                        <h2>Profile</h2>
+                        <p>A professional with 3.5 years of development experience by providing exemplary assistance to businesses across the IT Industry. Currently purusing Software Engineering Bootcamp through a Department for Education scholarship.</p>
+                        <p>Looking for an opportunity to be a part of a growing and dynamic organization that offers a challenging career that helps to maximize my professional skills while contributing to the progress of the organization.</p>
+                    </section>
+                </div>
+            </div>
+            <div  class="allignment">
+                <section id="experience">
+                    <h2>Experience</h2>
+                    <div class="givespace">
+                        <h3>System Software Engineer</h3>
+                        <h4>American Mega Trends India Private Limited, Chennai, India</h4>
+                        <h5><em>Oct 2015 - Feb 2017 (1 year 5 months)</em></h5>
+                        <ul>
+                            <li>Involved in requirement gathering.</li>
+                            <li>Actively involved in Screen design, back end development, Database development. Coded an in-house project with a team of 2 members, enabling the Office's admin team to take their business digital.</li>
+                            <li>Bug fixing/Maintenance of the existing screens.</li>
+                            <li>Generating setup file by using FLEXERA tool to provide release build.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Associate Software Engineer</h3>
+                        <h4>SPAN Infotech (India) Pvt. Ltd, Bangalore, India</h4>
+                        <h5><em>Feb 2013 - Jan 2015 (2 years)</em></h5>
+                        <ul>
+                            <li>Involved in requirement gathering.</li>
+                            <li>New screen Developments and  Functional improvements, API's and addressing UI issues</li>
+                            <li>Actively involved in Unit Testing.</li>
+                            <li>Participated in training for project purposes</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            <div class="allignment">
+                <section id="education">
+                    <h2>Education</h2>
+                    <div>
+                        <h4>HyperionDev, UK</h4>
+                        <blockquote>Bootcamp, Software Engineering</blockquote>
+                        <blockquote><em>Mar 2023 - Jun 2023</em></blockquote>
+                    </div>
+                    <div>
+                        <h4>Anna University, Chennai, India</h4>
+                        <blockquote>Bachelor of Technology - BTech, Information Technology</blockquote>
+                        <blockquote><em>2008-2012</em></blockquote>
+                    </div>
+                </section>
+            </div>
+            <div class="allignment">
+                <section id="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Visual Studio code</li>
+                        <li>Git</li>
+                        <li>C#</li>
+                        <li>Asp.Net MVC</li>
+                        <li>Windows Application</li>
+                        <li>Microsoft SQL Server</li>
+                        <li>Entity Framework</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>XML</li>
+                        <li>Visual Studio</li>
+                        <li>Unit Testing</li>
+                        <li>Agile methodology</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="allignment">
+                <section id="project">
+                    <h2>Projects</h2>
+                    <h4>Personal Profile</h4>
+                        <ul>
+                            <li>The Purpose of this project is to showcase my HTML, CSS experience.</li>
+                            <li>Utilized HTML and HTML5 semantic elements</li>
+                            <li>Built a responsive page that has ability to optimize the screen size accroding to the desktop and mobile device.</li>
+                            <li>Included comments to help the code to be understandable and maintainable.</li>
+                        </ul>
+                    <h4>Capstone Project-Finance Calculator</h4>
+                        <ul>
+                            <li>This is a Python program and the purose is to calculate - simple interest, compound interest and bond by getting inputs from user.</li>
+                            <li>This is to exhibit my experience related to handling of variables and control structures.</li>
+                            <li>Handled redundancy by added a function for validation, repeated operations.</li>
+                            <li>Enhanced efficiency by adding defensive programing for validation.</li>
+                            <li>Included comments to help this code to be understandable and maintainable.</li>
+                        </ul>
+                </section>
+
+            </div>
+            <div class="allignment">
+                <section id="contact">
+                    <h2>Contact Me</h2>
+                    <blockquote>&#127968; Address:Great Cornard, England, United Kingdon</blockquote>
+                    <blockquote><p>&#128231; <strong><a href="mailto:mail2gayathri.n@gmail.com?subject=Regarding job application">Email Me</a></strong> : mail2gayathri.n@gmail.com</p></blockquote>
+                    <blockquote><p>&#128222; Phone: 07379494940</p></blockquote>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <p><a href="https://github.com/GayathriNatarajan123" title="GitHub Profile" target="_blank">
+                <i class="fa-brands fa-square-github fa-xl"></i>
+                </a>
+            </p>   
+            <p><a href="https://www.linkedin.com/in/gayathri-natarajan-4b651672" title="Linkedin Profile" target="_blank">
+                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                </a>
+            </p>
+            <p>
+                <a href="https://www.hyperiondev.com/portfolio/154477/" title="HyperionDev portfolio" target="_blank">
+                    <i class="fa-solid fa-user fa-lg"></i>
+                </a>
+            </p>            
+            <p> &copy;Personal bolg, 2023</p>
+            
+          </footer>
+    </div>
+</body>
+</html>
+
