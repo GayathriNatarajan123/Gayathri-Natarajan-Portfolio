@@ -1,0 +1,221 @@
+/*-----------------type selector---------------------*/
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    color: slategray;
+  }
+  #container{
+    width: 80%;
+    margin:auto;
+  }
+  * {
+    box-sizing: border-box;
+  }
+/*---------------------------------Header----------------------------------*/
+
+h1{
+    font-size: 200%;
+}
+.allignment{
+    overflow:auto;
+    
+}
+h1,h2 {
+    color:tomato;
+    text-transform: uppercase;
+}
+#imggayathri{   
+    width: 100%;    
+    border: 1px;
+}
+.pageheading{
+    background-color:beige;    
+    width:100%;
+    text-align: center;   
+    padding: 01vw; 
+}
+.pagenavigation{ 
+    width:100%;
+    text-align:center;
+    font-size: 120%;       
+}
+
+/*----------Descendant Selector------------*/
+.pagenavigation ul li{
+    display:inline;    
+}
+
+/*----------------------------Main--------------------------------------*/
+
+.pageimage{
+    float:left;
+    width:30%;    
+    padding-top: 01vw;    
+}
+.profile{
+    float: left;
+    width:70%;
+    padding-left: 01vw;
+    padding-right: 01vw;
+    padding-top: 01vw;
+}
+.givespace{
+    padding-bottom: 01vw;
+}
+#experience h4{
+    color: tomato;
+}
+/*----------Descendant Selector------------*/
+#skills ul li{
+    display:inline;   
+  }
+  
+#skills li::before {    
+    content: " \00b7"; 
+  }
+/*--------------Footer-------------------------------------*/
+footer{
+    padding-top:2em;
+    text-align:center;
+    background-color:beige;
+    color:darkslategrey;
+}
+/*----------Descendant Selector------------*/
+footer p{
+    display:inline;  
+    padding:5px;
+  }
+
+
+
+/*-------Common Pseudo Class-----------*/
+a:link{
+    color:tomato;
+  }
+  a:visited{
+    color: hotpink;  
+  }
+  h1:hover{
+    text-decoration:underline;
+  }
+  h2:hover{
+    text-decoration:underline;
+  }
+  h3:hover{
+    text-decoration:underline;
+  }
+  a:focus{
+      border-radius: 6px;
+      display: inline-block;
+      background: #ff9904;
+      color: white;
+      padding: 5px 10px;
+      margin: 2px;
+  }
+footer a{
+    text-decoration: none;    
+}
+/*-------Media Query-----------*/
+/*-------Create responsive web page based on the screen width-----------*/
+
+/* Media Query for Mobile phone */
+  @media screen and (max-width:768px){
+    #container{
+        width: 90%;
+        margin:auto;
+    }
+    body{
+        font-size: 90%;
+    }
+    h1{
+        font-size: 200%;
+    }
+    h2{
+        font-size: 150%;
+    }
+    h3{
+        font-size: 100%;
+    }
+    .pageheading{
+        
+        width:100%;
+    }
+    .pagenavigation{ 
+        width:100%;
+        font-size: 120%      
+    }    
+    .pageimage{
+        
+        width:100%;
+    }
+    .profile{
+        
+        width:100%;
+    }
+    img{
+        max-width: 100%;
+    }
+    #experience{
+        width:100%; 
+    }
+    #education{
+        width:100%; 
+    }
+    #skills{
+        width:100%; 
+    }
+    #contact{
+        width:100%; 
+    }
+  }
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 769px) and (max-width: 1024px){
+    #container{
+        width: 80%;
+        margin:auto;
+    }
+    body{
+        font-size: 90%;
+    }
+    h1{
+        font-size: 200%;
+    }
+    h2{
+        font-size: 150%;
+    }
+    h3{
+        font-size: 100%;
+    }
+    .pageheading{
+        
+        width:100%;
+    }
+    .pagenavigation{ 
+        width:100%;
+        font-size: 120%      
+    }    
+    .pageimage{
+        
+        width:100%;
+    }
+    .profile{
+        
+        width:100%;
+    }
+    img{
+        max-width: 100%;
+    }
+    #experience{
+        width:100%; 
+    }
+    #education{
+        width:100%; 
+    }
+    #skills{
+        width:100%; 
+    }
+    #contact{
+        width:100%; 
+    }
+}
+  
