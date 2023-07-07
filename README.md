@@ -1,2 +1,2 @@
 # Gayathri-Natarajan-Portfolio
-This is a HTML project designed to showcase it as a resume.
+The purpose of this project is to demonstrate my resume in the form of an HTML design.
