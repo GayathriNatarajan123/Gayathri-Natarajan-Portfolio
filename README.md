@@ -1,5 +1,5 @@
 ## Gayathri-Natarajan-Portfolio
-The purpose of this project is to demonstrate my resume in the form of an HTML design. This project is to showcase my HTML, CSS experience. Utilized HTML and HTML5 semantic elements.
+This project serves as a showcase of my HTML and CSS expertise, specifically focusing on the creation of a resume using HTML design. It demonstrates the utilization of HTML and HTML5 semantic elements. 
 Built a responsive page using media query that has ability to optimize the screen size accroding to the desktop and mobile device.
 
 ## Installation Setup for Runing the File
